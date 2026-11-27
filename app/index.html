@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bargain Beacon — Real Black Friday 2026 Deals, Checked Today</title>
+<meta name="description" content="31 real Black Friday and Cyber Monday deals, each checked at its store on 27 Nov 2026, with sale price, usual price, discount and an honest verdict on whether it is really a deal.">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap">
+    <p class="kicker">BLACK FRIDAY &middot; 27 NOV 2026 &middot; PRICES CHECKED TODAY</p>
+    <h1>Bargain Beacon</h1>
+    <p class="tagline">Real deals, checked at the store &mdash; not just a sale sticker.</p>
+    <p class="intro">Every deal below was found and checked by our agent on Black Friday itself,
+      27 November 2026, against the store&rsquo;s own Black Friday listing. Each card shows the sale
+      price, the usual price, the discount, when it was checked, and an honest verdict:
+      a <strong>new low</strong>, a <strong>strong deal</strong>, or a <strong>routine sale</strong>
+      that comes back at every event.</p>
+    <dl class="stats">
+      <div><dt>Deals checked</dt><dd>31</dd></div>
+      <div><dt>Stores</dt><dd>4</dd></div>
+      <div><dt>Categories</dt><dd>6</dd></div>
+      <div><dt>Biggest cut</dt><dd>67% off</dd></div>
+    </dl>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="picks" aria-label="Top picks">
+    <h2>Biggest cuts of the day</h2>
+    <ol id="top-picks"></ol>
+  </section>
+
+  <section class="controls" aria-label="Search and filters">
+    <div class="control-row">
+      <label class="search-label">Search deals
+        <input id="search" type="search" placeholder="Try &ldquo;AirPods&rdquo;, &ldquo;TV&rdquo; or &ldquo;vacuum&rdquo;&hellip;" autocomplete="off">
+      </label>
+      <label>Sort by
+        <select id="sort">
+          <option value="discount" selected>Biggest discount %</option>
+          <option value="saved">Most dollars saved</option>
+          <option value="priceAsc">Lowest price first</option>
+          <option value="priceDesc">Highest price first</option>
+        </select>
+      </label>
+      <label>Minimum discount
+        <select id="min-discount">
+          <option value="0" selected>Any discount</option>
+          <option value="20">20% off or more</option>
+          <option value="40">40% off or more</option>
+          <option value="50">50% off or more</option>
+        </select>
+      </label>
+      <button id="clear-filters" type="button">Clear filters</button>
+    </div>
+    <div class="chip-group">
+      <span class="chip-label">Category</span>
+      <div id="category-chips" class="chips"></div>
+    </div>
+    <div class="chip-group">
+      <span class="chip-label">Store</span>
+      <div id="store-chips" class="chips"></div>
+    </div>
+    <p id="count-line" class="count" aria-live="polite"></p>
+  </section>
+
+  <section id="grid" class="grid" aria-label="Deals"></section>
+
+  <section class="method" aria-label="How deals were checked">
+    <h2>How we checked</h2>
+    <p>On Friday 27 November 2026 our agent read each store&rsquo;s own Black Friday listing and
+      the live deal roundups that report those listings, and recorded the sale price, the usual
+      price and the check time for every deal. A deal is listed only if a store or a deals source
+      naming the store showed that price when we checked. Prices can change or sell out &mdash;
+      always confirm the price at the store before you buy.</p>
+    <h3>What the verdicts mean</h3>
+    <ul>
+      <li><span class="verdict verdict-new-low">NEW LOW</span> &mdash; the lowest price ever seen for this listing.</li>
+      <li><span class="verdict verdict-strong">STRONG DEAL</span> &mdash; a deep cut on a well-known, stable price.</li>
+      <li><span class="verdict verdict-routine">ROUTINE SALE</span> &mdash; a real cut, but this price returns at every sale event.</li>
+    </ul>
+    <p class="fine">All prices in US dollars. Store links open the store&rsquo;s own search for the product.
+      Bargain Beacon is an independent finder and is not affiliated with Amazon, Best Buy, Walmart or Target.
+      Prices checked 27 Nov 2026, 14:40 WIB.</p>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>Bargain Beacon &middot; Black Friday 2026 &middot; Deals checked 27 Nov 2026, 14:40 WIB &middot; Prices change &mdash; verify at the store.</p>
+  </div>
+</footer>
+</body>
+</html>
